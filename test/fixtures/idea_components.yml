@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  summary: MyText
+  details: MyText
+  tags: MyString
+  idea_id: 1
+  idea_component_type: MyString
+  order: 1
+
+two:
+  summary: MyText
+  details: MyText
+  tags: MyString
+  idea_id: 1
+  idea_component_type: MyString
+  order: 1
