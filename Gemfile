@@ -50,3 +50,6 @@ gem 'rest_client'
 gem 'cancan'
 
 
+gem 'bootstrap-generators', '~> 3.3.4'
+gem 'omniauth'
+gem 'factory_girl_rails'
