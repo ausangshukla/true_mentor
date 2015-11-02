@@ -1,1 +1,1 @@
-json.extract! @repository, :id, :name, :summary, :tags, :description, :repo_type, :created_by, :created_at, :updated_at
+json.partial! '/repositories/show', repository: @repository
