@@ -5,6 +5,9 @@ class IdeasController < ApplicationController
   # GET /ideas.json
   def index
     @ideas = Idea.all
+    if params[:repository_id].present?
+      @ideas = @ideas.where(repository_id: params[:repository_id])
+    end
   end
 
   # GET /ideas/1

@@ -5,6 +5,7 @@ class IdeaComponentsController < ApplicationController
   # GET /idea_components.json
   def index
     @idea_components = IdeaComponent.all
+    @idea_components = @idea_components.where(idea_id: params[:idea_id]) if params[:idea_id].present?
   end
 
   # GET /idea_components/1
