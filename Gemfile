@@ -37,6 +37,11 @@ end
 gem 'angular_rails_csrf'
 
 gem 'devise'
+gem 'devise_token_auth'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
+
 
 gem 'high_voltage'
 
@@ -49,7 +54,5 @@ gem 'thin'
 gem 'rest_client'
 gem 'cancan'
 
-
-gem 'bootstrap-generators', '~> 3.3.4'
-gem 'omniauth'
 gem 'factory_girl_rails'
+gem 'rack-cors', :require => 'rack/cors'
